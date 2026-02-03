@@ -9,10 +9,11 @@ from task.app.main import run
 #  User massage: Explain the water cycle in simple terms for children
 
 run(
-    deployment_name='gpt-4o',
+    deployment_name='gemini-2.5-pro',
     print_only_content=True,
     # TODO:
     #  Use `frequency_penalty` parameter with different range (-2.0 to 2.0).
+    frequency_penalty=1.4
 )
 
 # Pay attention that when we set for `gpt-4o` frequency_penalty as -2.0 - the request is running too long,

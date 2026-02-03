@@ -13,7 +13,9 @@ from task.app.main import run
 run(
     # TODO:
     #  1. Provide `deployment_name` with model from the list above👆
+    deployment_name='gemini-2.5-pro',
     #  2. Use `n` parameter with value in range from 1 to 5!
+    n=4
 )
 
 # Pay attention to the number of choices in the response!
